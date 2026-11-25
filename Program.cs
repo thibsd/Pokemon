@@ -14,8 +14,18 @@
 */
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args) 
     {
+      string[] pokemons = {"Pikachu", "Dracaufeu", "Tortank", "Florizarre", "Ectoplasma", "Ronflex"};
+    
+
+
+     for (int i = 0; i < pokemons.Length; i++)
+     {
+       Console.Writeline((i+1).ToString() + ". " + pokemons[i]);
+     }
+
+     Console.Writeline("\nNombre total de pokemons: " + pokemons.Length.ToString());
 
     }
 }
